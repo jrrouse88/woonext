@@ -10,7 +10,7 @@ class MyApp extends App {
         return(
             <React.Fragment>
                 <Head>
-                    <title>Test Store</title>
+                    <title>Demo Store</title>
                     <meta charSet="utf-8" />
                 </Head>
                 <Component {...pageProps} />

@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://dashboard.gatsby.com/graphql",
+  uri: "https://dashboard.guerilladigital.media/graphql",
   cache: new InMemoryCache(),
 });
 

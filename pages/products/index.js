@@ -9,7 +9,7 @@ export default function Products({ products }) {
       <div className="row">
         {products.map((product) => {
           return (
-            <div key={product.id} className="col l3">
+            <div className="col l3" key={`${product.id}`}>
               <div className="card">
                 <div className="card-image">
                   <img src={product.image.sourceUrl} alt={product.image.altText}/>
